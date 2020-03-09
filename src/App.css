@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/08/05/20/adventure-1807524_960_720.jpg");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  background-color: rgb(66, 54, 54);
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 80px;
+  width: 100%;
+  color: gold;
+  font-size:x-large;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif
+  
+  
 }
 
-.App-link {
-  color: #61dafb;
+.activity-box {
+  height: 65vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.outdoor {
+  height: 45vh;
+  width: 30%;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+}
+
+.planner {
+  height: 20vh;
+  display:  flex;
+  justify-content: center;
+  border-style: solid;
+  border-color: black;
+  background-color: whitesmoke;
+}
+
+.indoor {
+  height: 45vh;
+  width: 30%;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+}
+
+/* .text-box {
+  width: 100px;
+  height: 30px;
+  border: 1px solid red;
+} */
+
+h2 {
+  position: absolute;
+  top: 80px;
 }
